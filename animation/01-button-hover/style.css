@@ -17,3 +17,21 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button:hover {
+  border-radius: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 22px;
+  padding: 20px 28px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  from {font-size: 18px;
+  padding: 16px 24px;}
+  to {  font-size: 22px;
+  padding: 20px 28px;}
