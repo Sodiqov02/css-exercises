@@ -31,7 +31,12 @@ button:hover {
 }
 
 @keyframes example {
-  from {font-size: 18px;
-  padding: 16px 24px;}
-  to {  font-size: 22px;
-  padding: 20px 28px;}
+  from {
+    font-size: 18px;
+    padding: 16px 24px;
+  }
+  to {
+    font-size: 22px;
+    padding: 20px 28px;
+  }
+}
